@@ -34,7 +34,7 @@ WOCS supplies the lightest possible substrate: global broadcast of needs, verifi
 
 WOCS provides the minimal layer for emergent coordination:
 
-- Broadcast offers for recurring or one-time needs (server hosting, anti-cheat bounties, provenance audits, tournament pools).
+- Broadcast offers for recurring or one-time needs (server hosting, anti-cheat services, provenance audits, tournament pools).
 - Submit fulfillment with proof and a Lightning invoice.
 - Publicly acknowledge settlement (or rejection).
 
@@ -122,7 +122,7 @@ Public history emerges naturally on the Nostr graph.
 With WOCS layered atop AEMS (persistent artifacts) and RUNS (neutral execution):
 
 **Resilient Server Networks** — Competing hosts respond to recurring offers, creating redundancy.  
-**Distributed Anti-Cheat** — Bounties fund open processors; deployments subscribe as needed.  
+**Distributed Anti-Cheat** — Offers fund open processors; deployments subscribe as needed.  
 **Provenance Audits** — Curators coordinate verification of AEMS entity chains.  
 **Permissionless Tournaments** — Organizers broadcast pools; casters, bracket runners, and streamers fulfill roles.  
 **Asset & Mod Creation** — Direct coordination for new manifestations, processors, or fixes.  
