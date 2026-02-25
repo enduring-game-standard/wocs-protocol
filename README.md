@@ -6,7 +6,7 @@
 
 ---
 
-The Decentralized Game Standard aims to make digital games as enduring, open, and composable as the games humanity has played for centuries: rulesets that anyone can implement, artifacts that persist independently, and execution environments that remain neutral.
+The Enduring Game Standard aims to make digital games as enduring, open, and composable as the games humanity has played for centuries: rulesets that anyone can implement, artifacts that persist independently, and execution environments that remain neutral.
 
 Digital games introduce requirements that static physical games do not: real-time networking, state synchronization, anti-cheat enforcement, provenance tracking, and persistent server architecture. These functions demand ongoing, coordinated effort to sustain at scale.
 
@@ -44,7 +44,7 @@ Higher-layer services—discovery indexes, reputation aggregators, dispute media
 
 ## What WOCS Deliberately Excludes
 
-Like other DGS primitives, WOCS embraces radical minimalism.
+Like other EGS primitives, WOCS embraces radical minimalism.
 
 | Excluded              | Why                                      | Where It Belongs                  |
 |-----------------------|------------------------------------------|-----------------------------------|
