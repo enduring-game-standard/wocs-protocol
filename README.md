@@ -2,7 +2,7 @@
 
 **A Minimal Protocol for Decentralized Coordination in Games — Conceptual**
 
-🏠 **[Overview](https://github.com/enduring-game-standard)** · 📦 **[AEMS](https://github.com/enduring-game-standard/aems-standard)** · 🔧 **[RUNS](https://github.com/enduring-game-standard/runs-standard)** · 🎼 **[MAPS](https://github.com/enduring-game-standard/ludic-notation-standard)** · ❓ **[FAQ](https://github.com/enduring-game-standard/.github/blob/main/profile/FAQ.md)**
+🏠 **[Overview](https://github.com/enduring-game-standard)** · 📦 **[AEMS](https://github.com/enduring-game-standard/aems-schema)** · 🔧 **[RUNS](https://github.com/enduring-game-standard/runs-spec)** · 🎼 **[MAPS](https://github.com/enduring-game-standard/maps-notation)** · ❓ **[FAQ](https://github.com/enduring-game-standard/.github/blob/main/profile/FAQ.md)**
 
 ---
 
