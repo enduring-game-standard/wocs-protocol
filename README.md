@@ -22,7 +22,7 @@ Digital games require active upkeep that physical games largely avoid:
 - **Anti-Cheat Systems** — Real-time detection and enforcement to preserve fair play.
 - **Community Provenance Audits** — Verifiable chains of attribution for mods, assets, and rule changes.
 - **Matchmaking & Tournaments** — Scalable organization of competitive play, prize distribution, and event support.
-- **Mod & Asset Development** — Ongoing creation and refinement of new entities, processors, and manifestations.
+- **Content Commissioning** — Ongoing creation and refinement of new Manifestations, Processors, and art.
 - **Notation & Design Analysis** — Craft contributions such as balance audits, pattern documentation, and design review.
 
 Without neutral mechanisms for strangers to coordinate these functions, they either remain centralized, carrying the risks of capture and abandonment, or depend on fragile volunteer effort that cannot sustain itself economically.
@@ -59,7 +59,7 @@ The protocol enforces only event structure and referencing. Everything else, dis
 
 ### Relationship to Existing Nostr Protocols
 
-The Nostr ecosystem includes marketplace protocols (NIP-15) for product listings and data vending machines (NIP-90) for job-based data processing. WOCS operates in adjacent territory but serves a distinct purpose: it coordinates ongoing game infrastructure, not one-off product purchases or stateless data jobs. WOCS offers may recur monthly. They reference EGS-specific entity types (AEMS Manifestations, RUNS Processors). They compose with the EGS protocol stack in ways that general-purpose marketplace events do not. WOCS is domain-specific coordination for the game commons, built on the same Nostr substrate that NIP-15 and NIP-90 use for their respective domains.
+The Nostr ecosystem includes marketplace protocols (NIP-15) for product listings and data vending machines (NIP-90) for job-based data processing. WOCS operates in adjacent territory but serves a distinct purpose: it coordinates ongoing game infrastructure, not one-off product purchases or stateless data jobs. WOCS offers may recur monthly. They reference EGS-specific event types (AEMS Manifestations, RUNS Processors). They compose with the EGS protocol stack in ways that general-purpose marketplace events do not. WOCS is domain-specific coordination for the game commons, built on the same Nostr substrate that NIP-15 and NIP-90 use for their respective domains.
 
 ## What WOCS Deliberately Excludes
 
@@ -146,17 +146,17 @@ The `preimage` is cryptographic proof that the Lightning payment completed. Publ
 
 ## Emergent Capabilities
 
-With WOCS layered atop AEMS (persistent artifacts) and RUNS (neutral execution):
+Alongside AEMS (durable signed claims) and RUNS (neutral execution), WOCS coordinates work such as:
 
 **Resilient Server Networks** — Competing hosts respond to recurring offers, creating redundancy. If one host fails, the offer remains on the Nostr graph and another host responds. The community does not depend on any single provider.
 
 **Distributed Anti-Cheat** — Offers fund open RUNS Processors that detect and enforce fair play. Deployments subscribe to these Processors as needed, paying per period through WOCS.
 
-**Provenance Audits** — Curators coordinate verification of AEMS entity chains, ensuring that Manifestations, Entities, and Assets maintain accurate attribution across forks and extensions.
+**Provenance Audits** — Curators audit AEMS provenance chains and publish their findings. Each event's signature already fixes its attribution.
 
 **Permissionless Tournaments** — Organizers broadcast prize pools. Casters, bracket runners, and streamers fulfill roles. Settlement is instant: no platform holds the prize money.
 
-**Asset & Mod Creation** — Direct coordination for new AEMS Manifestations, RUNS Processors, or community fixes. A designer posts an offer for a new weapon variant. An artist fulfills it. Payment completes before the next session.
+**Content Commissioning** — Direct coordination for new AEMS Manifestations, RUNS Processors, or community fixes. A designer posts an offer for a new weapon. An artist fulfills it. Payment completes before the next session.
 
 **Notation & Craft Contributions** — WOCS coordinates work on the craft itself: funding MAPS pattern documentation, balance analysis, design audits, and Score notation. The economic substrate for cumulative craft is the same three-event cycle that funds server hosting.
 
