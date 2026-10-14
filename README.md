@@ -6,6 +6,11 @@
 
 ---
 
+> **Status**: Conceptual — the most speculative EGS layer, and the only one that
+> depends on Lightning. No kind numbers are pinned; no Offer→Fulfill→Ack cycle has
+> settled real work. Nothing else in EGS depends on WOCS. Ecosystem-wide state:
+> [STATUS.md](https://github.com/enduring-game-standard/.github/blob/main/profile/STATUS.md).
+
 ## Why Coordination Needs a Protocol
 
 The Enduring Game Standard makes digital games as durable as the rulesets humanity has played for millennia: open rules anyone can implement, persistent artifacts no single entity controls, and execution environments that remain neutral. But durability demands coordination. Servers must be hosted. Anti-cheat systems must be maintained. Provenance chains must be audited. Tournaments must be organized. Unlike a chessboard, which coordinates through physical proximity, a digital game requires active infrastructure sustained by ongoing effort.
